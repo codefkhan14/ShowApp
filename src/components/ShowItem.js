@@ -3,7 +3,7 @@ import React from "react";
 const ShowItem = (props) => {
   return (
     <div className="my-3">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card">
         <img src={props.imageUrl} className="card-img-top" alt="Loading..." />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
